@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topnav">
+        <div class="topleft">
+            <h1>Dojonary</h1>
+        </div>
+        <div class="topmiddle">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="topright">
+            <button onclick="logout(this)">Login</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="left">
+            <div class="box">
+                <div class="word">
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <!-- if i want to target a specific word inside of another tag use <span> -->
+                    <p>plural: <span>ninjas</span> </p>
+                    <button onclick="alert('ninja was liked')">42 Likes</button>
+                </div>
+                <div class="definition">
+                    <h3>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#"> ninjitsu</a></h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="word">
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <!-- if i want to target a specific word inside of another tag use <span> -->
+                    <p>plural: <span>ninjas</span> </p>
+                    <button onclick="alert('ninja was liked')">24 Likes</button>
+                </div>
+                <div class="definition">
+                    <h3>A <a href="#">programmer</a> who breaks down code with <a href="#">zen</a> like focus</h3>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="box">
+                <div class="adddef">
+                    <h2>Dojonary is Defined by You</h2>
+                    <button onclick="hide(this)">Add a Definition</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

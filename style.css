@@ -1,0 +1,99 @@
+* {
+    margin: 0 auto;
+}
+
+/* top bar on page */
+.topnav {
+    width: 800px;
+    height: 100px;
+    padding: 0 10px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topleft {
+    margin-left: 0;
+}
+
+.topright {
+    padding: 10px;
+    margin-right: 0;
+}
+
+.topright button {
+    width: 85px;
+    height: 35px;
+    background-color: blue;
+    box-shadow: 5px 5px 2px;
+}
+
+.topmiddle input {
+    width: 400px;
+    height: 25px;
+    border: 2px solid;
+}
+
+
+/* main block of page */
+.container {
+    padding: 20px;
+    margin: 0px auto;
+    width: 800px;
+    display: flex;
+}
+
+.left {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.right {
+    flex: 1;
+}
+
+.box {
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+}
+.word {
+    margin-right: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.word h1 {
+    margin-top: 0px;
+}
+
+.word h3 {
+    font-style: italic;
+}
+
+.word span {
+    font-style: italic;
+}
+
+.word button {
+    width: 85px;
+    height: 35px;
+    background-color: darkgoldenrod;
+    box-shadow: 5px 5px 2px;
+}
+
+.definition {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.adddef button {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+    background-color: palegreen;
+    box-shadow: 5px 5px 2px;
+}
